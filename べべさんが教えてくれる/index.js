@@ -6,8 +6,8 @@ let baka = Math.abs(-11)
 
 //リスト
 let list = ['kenefu','枯葉','ぴかすぅ','shinkame']
-let r = Math.random() * list.length
-let r2 =Math.floor(r)
+//floorは小数点切り捨て　randomは2なら1.9999...になる
+let r2 =Math.floor(Math.random() * list.length)
 console.log(r2)
 console.log(list[r2])
 

@@ -1,3 +1,7 @@
+let count =('1')
+
+console.log ('kenefuのやらかした回数は'+(count))
+
 function test(){
     var myinput = document.getElementById("myinput")
     var output = myinput.value
